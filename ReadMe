@@ -1,0 +1,10 @@
+proyecto de escaneo de archivos en java 25 
+
+el proyecto escanearia todos los archivos de un path enviado por parametro,
+ procesando el contenido en paralelo calculando estadisticas buscando palabras en particular y generando reportes.
+ 
+ faltan aplicar algunas cosas, separar responsabilidades y arreglar el contador
+ 
+ el stack hasta ahora sería de java 25 virtual threads , executors, records, streams, optional, logging y Junit.
+ 
+ el tiempo que me da en la prueba(contando las palabras de 27 archivos txt) es de 380ms total(a veces un poco mas a veces un poco menos)
